@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.login-title{
+  justify-self: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+button {
+  border: 1px solid #000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.login-buttons {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
