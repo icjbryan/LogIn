@@ -1,2 +1,1 @@
-LogIn - Menu
-CheckIn - Menu
+LogIn/CheckIn - Menu
