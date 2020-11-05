@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+}
+
 .login-container {
   display: flex;
   flex-direction: column;
@@ -43,8 +47,47 @@ button:active {
 .user-container {
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
 
 .user {
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close{
+  margin-left: 30px;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  position: relative;
+  outline: none;
+  border: none;
+}
+
+.close:active{
+  background: transparent;
+}
+
+.close::before{
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #000;
+  transform: rotate(-45deg);
+}
+.close::after {
+  position: absolute;
+  content: "";
+  bottom: 9px;
+  right: 0;
+  width: 20px;
+  height: 2px;
+  background: #000;
+  transform: rotate(45deg);
 }
